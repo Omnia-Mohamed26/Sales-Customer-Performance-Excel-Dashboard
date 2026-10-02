@@ -326,7 +326,8 @@ sales-customer-performance-excel-dashboard/
 ├── Sales_Customer_Performance_Dashboard.xlsx
 │
 └── Sales_Customer_Performance_Dashboard.png
- 
+```
+
 ### Repository Components
 
 **`Sales_Customer_Performance_Dashboard.xlsx`**  
