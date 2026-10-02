@@ -20,128 +20,97 @@
 </p>
 
 <p align="center">
-  <strong>Sales & Customer Performance</strong> — Customer trends, geographic distribution, product line sales, and interactive business filtering
+  <strong>Sales & Customer Performance</strong> — Customer trends, geographic distribution, product line sales, and interactive filtering
 </p>
 
 ---
 
 ## 📌 Project Overview
 
-**Sales & Customer Performance Dashboard** is an interactive Microsoft Excel analytics project designed to analyze customer activity, sales performance, order volume, product line performance, and customer distribution across different geographic locations.
+**Sales & Customer Performance Dashboard** is an interactive Excel analytics project focused on exploring sales performance, customer activity, order volume, product line sales, and geographic customer distribution.
 
-The project uses **Power Query, PivotTables, Excel charts, KPI cards, and slicers** to transform structured business data into an interactive analytical dashboard.
+The project combines **Power Query, PivotTables, Excel Charts, KPI Cards, and Slicers** to transform structured business data into an interactive dashboard.
 
-The dashboard brings multiple analytical perspectives together in a single reporting environment, allowing users to explore customer and sales performance across time, geography, product lines, and order characteristics.
+The dashboard is designed to provide a compact analytical view of key business metrics while allowing users to explore the data through multiple dimensions such as time, geography, product line, status, territory, and deal size.
 
 ---
 
-## 🎯 Business Objectives
+## 🎯 Business Questions
 
-The dashboard was designed to explore key business questions such as:
+The dashboard helps explore questions such as:
 
-- How does customer activity change over the years?
-- How does customer activity change across months?
-- Which countries have the highest number of customers?
-- Which cities have the highest number of customers?
+- How does customer activity change over time?
+- How is the customer base distributed across countries and cities?
 - Which product lines generate the highest sales?
 - Which customer is highlighted as the top customer?
-- How do sales and customer activity change based on order status?
-- How do different territories and deal sizes affect the analysis?
-- How does performance change across different order years and months?
+- How do results change across order status, territory, and deal size?
+- How does performance vary across different order years and months?
 
 ---
 
-## 🗂️ Dataset
+## 🗂️ Data & Analysis Areas
 
-The dashboard uses structured sales and customer data containing information across several business dimensions.
+The dashboard focuses on the following analytical areas:
 
-The analysis focuses on:
-
-| Area | Analysis |
+| Area | Dashboard Analysis |
 |---|---|
-| **Customers** | Total customers and customer distribution |
-| **Orders** | Total orders and order activity |
+| **Customers** | Customer count and distribution |
+| **Orders** | Order volume and activity |
 | **Sales** | Total sales performance |
 | **Quantity** | Total quantity |
-| **Products** | Product line performance |
-| **Geography** | Country and city analysis |
-| **Time** | Order year and order month |
+| **Product Lines** | Sales comparison across product lines |
+| **Geography** | Customer distribution by country and city |
+| **Time** | Customer activity by year and month |
 | **Order Characteristics** | Status, territory, and deal size |
-
-The data is analyzed in Excel and structured to support PivotTables, interactive filtering, KPI calculations, and dashboard visualizations.
 
 ---
 
 ## 🛠️ Tools & Techniques
 
-| Tool / Technique | Application |
+| Tool / Technique | Purpose |
 |---|---|
 | **Microsoft Excel 365** | Dashboard development and analysis |
 | **Power Query** | Data preparation and transformation |
-| **PivotTables** | Business metric aggregation and analysis |
-| **Excel Charts** | Data visualization |
-| **Slicers** | Interactive dashboard filtering |
-| **KPI Cards** | High-level performance monitoring |
-| **Dashboard Design** | Business-focused visual storytelling |
+| **PivotTables** | Data aggregation and analysis |
+| **Excel Charts** | Analytical visualization |
+| **Slicers** | Interactive filtering |
+| **KPI Cards** | High-level metric monitoring |
+| **GETPIVOTDATA** | Dynamic KPI values |
+| **Dashboard Design** | Visual presentation and data storytelling |
 
 ---
 
 ## 🔄 Analytical Workflow
 
-The project follows a structured analytics workflow:
+The project follows a structured workflow:
 
-**Raw Data → Data Preparation → PivotTables → Analysis → KPIs → Visualization → Interactive Dashboard**
+**Raw Data → Power Query → PivotTables → KPIs → Visualization → Interactive Dashboard**
 
 ### Data Preparation
 
-**Power Query** was used for data preparation and transformation before the analytical stage.
+Power Query was used to prepare and transform the data before the analytical stage.
 
-The data supports analysis across:
+### Analysis
 
-- Customers
-- Orders
-- Sales
-- Quantity
-- Products
-- Geography
-- Time
-- Order characteristics
-
-### Data Analysis
-
-**PivotTables** were used to aggregate and analyze the data across different business dimensions.
+PivotTables were used to organize and aggregate the data across different business dimensions.
 
 ### Visualization
 
-Excel charts were used to communicate:
-
-- Customer trends
-- Geographic customer distribution
-- Product line sales performance
+Excel Charts were used to communicate customer trends, geographic distribution, and product line sales.
 
 ### Dashboard Development
 
-The final dashboard combines:
-
-- KPI Cards
-- Interactive Slicers
-- Customer Trend Charts
-- Geographic Analysis
-- Product Line Sales Analysis
-- Top Customer Highlight
-- Consistent Visual Styling
+The final dashboard combines KPI cards, charts, slicers, and structured visual containers into a single interactive reporting interface.
 
 ---
 
-# 📈 Dashboard Analysis
+# 📈 Dashboard Overview
 
-The dashboard provides a combined view of **sales performance and customer activity**.
+The dashboard combines **high-level KPIs, customer analysis, sales analysis, geographic views, and interactive filters** in a single reporting interface.
 
----
+## 📌 KPI Summary
 
-## 1. KPI Summary
-
-The dashboard displays five high-level performance indicators:
+The dashboard currently displays five primary KPIs:
 
 | KPI | Dashboard Value |
 |---|---:|
@@ -151,109 +120,37 @@ The dashboard displays five high-level performance indicators:
 | **Total Quantity** | **99.1K** |
 | **Best-Selling Product** | **Classic Cars** |
 
-These KPIs provide a high-level view of the current dashboard results and respond to the active dashboard filters.
+The KPI values are dynamically connected to the dashboard analysis and respond to the active filters.
 
 ---
 
-## 2. Top Customer
+## 👤 Customer Analysis
 
-The dashboard highlights:
+The customer-focused visuals provide multiple views of customer activity and distribution.
 
-**Euro Shopping Channel**
+### Customer Trend by Year
 
-This provides a direct view of the customer identified as the top customer in the dashboard.
+Tracks customer activity across the years represented in the dashboard.
 
----
+### Customer Trend by Month
 
-## 3. Customer Trend by Year
+Shows customer activity across the twelve months, providing a monthly view of customer patterns.
 
-The **Customer Trend by Year** chart tracks customer activity across the years displayed in the dashboard.
+### Customers by Country
 
-The analysis covers:
+Compares customer distribution across the countries represented in the dataset.
 
-- 2003
-- 2004
-- 2005
-- 2006
-- 2007
-- 2008
-- 2009
-- 2010
+### Customers by City
 
-The visualization provides a year-by-year view of customer activity and allows changes over time to be compared.
+Provides a more detailed geographic view by comparing customer distribution across cities.
 
 ---
 
-## 4. Customer Trend by Month
+## 💰 Sales Analysis
 
-The **Customer Trend by Month** chart displays customer activity across the twelve months of the year.
+### Sales by Product Line
 
-The analysis covers:
-
-- January
-- February
-- March
-- April
-- May
-- June
-- July
-- August
-- September
-- October
-- November
-- December
-
-The monthly trend provides a view of customer activity throughout the year.
-
----
-
-## 5. Customers by Country
-
-The **Customers by Country** chart displays customer distribution across the countries represented in the dashboard.
-
-The displayed countries include:
-
-- USA
-- France
-- Spain
-- UK
-- Australia
-- Finland
-- Canada
-- Italy
-- Norway
-- Germany
-
-The visualization provides a geographic perspective on the customer base.
-
----
-
-## 6. Customers by City
-
-The **Customers by City** chart analyzes customer distribution across the cities displayed in the dashboard.
-
-The displayed cities include:
-
-- NYC
-- Paris
-- Madrid
-- Brickhaven
-- Nantes
-- Cambridge
-- New Bedford
-- Glendale
-- Boston
-- London
-
-This visualization allows customer distribution to be compared across different cities.
-
----
-
-## 7. Sales by Product Line
-
-The **Sales by Product Line** chart compares sales performance across the product lines displayed in the dashboard.
-
-The product lines include:
+Compares sales performance across the available product lines:
 
 - Classic Cars
 - Vintage Cars
@@ -263,17 +160,27 @@ The product lines include:
 - Ships
 - Trains
 
-In the current dashboard view, **Classic Cars** has the highest sales among the displayed product lines.
+In the current dashboard view, **Classic Cars** represents the highest-selling product line.
 
-The chart presents sales values using a compact format in millions for easier comparison.
+Sales values are displayed using a compact format to improve readability within the chart.
+
+---
+
+## 👤 Top Customer
+
+The dashboard includes a dedicated highlight for the top customer:
+
+**Euro Shopping Channel**
+
+This element provides a quick reference to the customer identified by the dashboard's current analysis.
 
 ---
 
 ## 🎛️ Interactive Filters
 
-The dashboard uses interactive slicers to allow users to explore the data dynamically.
+The dashboard uses slicers to allow users to dynamically explore the analysis.
 
-Users can filter the dashboard by:
+Available filters include:
 
 - **Status**
 - **Territory**
@@ -282,68 +189,61 @@ Users can filter the dashboard by:
 - **Order Year**
 - **Order Month**
 
-These filters allow users to explore different combinations of sales and customer performance without changing the dashboard structure.
+These filters allow users to change the analytical context without modifying the dashboard structure.
+
+---
+
+## 📊 Dashboard Components
+
+The dashboard brings together:
+
+- KPI Cards
+- Customer Trend by Year
+- Customer Trend by Month
+- Customers by Country
+- Customers by City
+- Sales by Product Line
+- Top Customer Highlight
+- Interactive Slicers
+
+This structure allows sales and customer performance to be explored from complementary perspectives.
 
 ---
 
 ## 🎨 Dashboard Design
 
-The dashboard follows a consistent visual system focused on **clarity, hierarchy, readability, and business-oriented presentation**.
+The dashboard was designed around a clean and consistent visual system with an emphasis on readability and analytical hierarchy.
 
-### Visual System
+### Visual Style
 
 The design uses:
 
-- White dashboard cards.
-- Warm brown and terracotta accents.
-- Rounded analytical containers.
-- KPI cards for high-level metrics.
-- Consistent chart styling.
-- Interactive slicers.
-- Clear visual hierarchy.
-- Minimal chart decoration.
-- Structured analytical sections.
-- Compact KPI number formatting for improved readability.
+- White analytical cards
+- Warm brown and terracotta accents
+- Rounded containers
+- Consistent KPI styling
+- Soft visual separation between dashboard sections
+- Clear chart hierarchy
+- Interactive slicers
+- Compact KPI number formatting
+- Minimal visual clutter
 
-The color palette was customized in Excel to maintain a consistent visual identity across the dashboard.
+The color palette and formatting were customized in Excel to maintain a consistent visual identity across the dashboard.
 
-### Development Environment
+### Number Formatting
 
-- **Primary Development:** Microsoft Excel 365
-- **Data Preparation:** Power Query
-- **Analysis:** PivotTables
-- **Visualization:** Excel Charts
-- **Dashboard Styling:** Microsoft Excel
+Large KPI values and chart labels use compact formats where appropriate to improve readability.
 
----
+Examples include:
 
-## 📁 Repository Structure
+- `$10.03M` instead of `$10,032,628.85`
+- `99.1K` instead of `99,067`
 
-```text
-sales-customer-performance-excel-dashboard/
-│
-├── README.md
-├── Sales_Customer_Performance_Dashboard.xlsx
-│
-└── Sales_Customer_Performance_Dashboard.png
-```
-
-### Repository Components
-
-**`Sales_Customer_Performance_Dashboard.xlsx`**  
-The main Excel workbook containing the data preparation, PivotTables, calculations, charts, slicers, KPI cards, and interactive dashboard.
-
-**`Sales_Customer_Performance_Dashboard.png`**  
-Preview image of the Sales & Customer Performance Dashboard.
-
-**`README.md`**  
-Project documentation covering the dashboard structure, analytical approach, KPIs, visualizations, tools, and business analysis.
+This keeps the dashboard visually clean while preserving the underlying values in the workbook.
 
 ---
 
 ## 🧰 Skills Demonstrated
-
-This project demonstrates practical skills across **Data Analytics, Microsoft Excel, Power Query, Business Intelligence, and Dashboard Design**.
 
 ### Data Analytics
 
@@ -371,14 +271,14 @@ This project demonstrates practical skills across **Data Analytics, Microsoft Ex
 
 - Data Preparation
 - Data Transformation
-- Structured Analytical Workflow
+- Data Structuring
 
 ### Business Intelligence
 
 - Interactive Reporting
 - KPI Monitoring
 - Data Visualization
-- Business Dashboard Development
+- Dashboard Development
 - Data Storytelling
 
 ### Business Analysis
@@ -388,31 +288,55 @@ This project demonstrates practical skills across **Data Analytics, Microsoft Ex
 - Product Line Performance
 - Geographic Customer Distribution
 - Order Analysis
-- Time-Based Customer Analysis
+- Time-Based Analysis
 
 ---
 
+## 📁 Repository Structure
+
+```text
+sales-customer-performance-excel-dashboard/
+│
+├── README.md
+├── Sales_Customer_Performance_Dashboard.xlsx
+└── Sales_Customer_Performance_Dashboard.png
+```
+
+### Repository Components
+
+**`Sales_Customer_Performance_Dashboard.xlsx`**
+The main Excel workbook containing the data preparation, PivotTables, calculations, charts, slicers, KPI cards, and interactive dashboard.
+
+**`Sales_Customer_Performance_Dashboard.png`**
+Preview image of the completed dashboard.
+
+**`README.md`**
+Project documentation describing the dashboard, analytical approach, tools, and key components.
+
+---
 
 ## 🚀 Future Improvements
 
-Potential extensions of the project include:
+Potential extensions of the dashboard include:
 
-- Adding more detailed sales performance analysis.
+- Expanding sales performance analysis.
 - Adding additional customer performance metrics.
 - Expanding geographic analysis.
-- Adding more product-level analysis.
-- Developing additional KPI calculations.
-- Expanding the dashboard with additional analytical views.
+- Adding more detailed product-level analysis.
+- Introducing additional KPI calculations.
+- Adding further analytical dashboard views.
+
+These improvements would extend the current dashboard while keeping the existing analytical structure.
 
 ---
 
 ## 📌 Project Outcome
 
-The **Sales & Customer Performance Dashboard** demonstrates an end-to-end Excel analytics workflow:
+The **Sales & Customer Performance Dashboard** demonstrates how Microsoft Excel can be used to build an interactive business analytics solution using:
 
-**Raw Data → Power Query → PivotTables → KPIs → Visualization → Interactive Dashboard**
+**Power Query → PivotTables → KPI Development → Data Visualization → Interactive Dashboard**
 
-The final dashboard brings multiple analytical perspectives together in one reporting environment, covering:
+The completed dashboard brings together:
 
 - Sales Performance
 - Customer Analysis
@@ -424,7 +348,7 @@ The final dashboard brings multiple analytical perspectives together in one repo
 - KPI Monitoring
 - Dashboard Design
 
-The project demonstrates how **Microsoft Excel, Power Query, and PivotTables** can be combined to transform structured business data into an interactive analytical dashboard.
+The project demonstrates practical application of **Excel, Power Query, PivotTables, and interactive visualization** to transform structured business data into a user-friendly analytical dashboard.
 
 ---
 
